@@ -1,1 +1,1 @@
-# rmt-quiz-app
+# Quiz app for project.
