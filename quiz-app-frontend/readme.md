@@ -1,0 +1,1 @@
+Starting information about frontend.
