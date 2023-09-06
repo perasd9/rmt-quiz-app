@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+   }
+
+body{
+    background-color: #252323;
+}
+  
+   .nav{
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    font-weight: 600;
+    
+    
+   }
+
+   
+
+   .logo{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+   }
+   
+   .logo h4{
+    color: #fff;
+    font-size: 1rem;
+
+    
+   }
+   
+   ul{
+     display: flex;
+     align-items: center;
+     list-style: none;
+     color: #fff;
+     gap: 7rem;
+     font-size: 1.2rem;
+   }
+
+   a{
+    text-decoration: none;
+     color: #fff;
+
+   }
+
+
+   button{
+    font-size: 1rem;
+     width: 5rem;
+      height: 2rem;
+      background-color: #FFC801;
+      font-weight: 600;
+      color: #000;
+        border: none;
+      border-radius: 0.7rem;
+      
+   }

@@ -1,0 +1,46 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    padding: 0 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+     
+  }
+
+
+
+
+.match-card {
+
+border-radius: 2rem;
+width: 80%;
+margin-top: 7rem;
+padding: 2rem;
+height: 14rem;
+background-color: #FFC801;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.match-players {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 2rem;
+}
+
+.match-players h3 {
+font-size: 1.2rem;
+}
+
+
+
+.match-result p {
+font-size: 2rem;
+color: #fff;
+font-weight: 600;
+}
+
+
