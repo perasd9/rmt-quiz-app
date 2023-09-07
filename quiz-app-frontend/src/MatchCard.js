@@ -5,17 +5,18 @@ function MatchCard({ player1, player2, result }) {
   return (
     <div className="match-card">
       <div className="match-players">
-        <img src='../symbols 9.png'></img>
-        <h3>Name{player1}</h3>
+        <div className="player-info">
+          <img src='../symbols 9.png' alt="Player 1" />
+          <h3>{player1.username}</h3>
+        </div>
         <div className="match-result">
-        <p>Result</p>
-        <h4>{result}</h4>
+          <h4>{result}</h4>
+        </div>
+        <div className="player-info">
+          <img src='../symbols 9.png' alt="Player 2" />
+          <h3>{player2.username}</h3>
+        </div>
       </div>
-      
-        <h3>Name{player2}</h3>
-        <img src='../symbols 9.png'></img>
-      </div>
-     
     </div>
   );
 }

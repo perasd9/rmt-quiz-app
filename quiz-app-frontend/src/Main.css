@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Roboto Condensed', sans-serif;
     
-   }
+}
 
    body{
     overflow: hidden;
@@ -12,7 +12,7 @@
 
 
 
-.hero{
+    .hero{
     width: 100vw;
     padding: 2rem;
     padding-top: 10rem;
@@ -21,7 +21,7 @@
     align-items: center;
     font-family: 'Roboto Condensed', sans-serif;;
     
-   }
+    }
 
    .text{
     width: 45%;
@@ -34,14 +34,14 @@
    .text h1{
     
  
-        font-size: 3.5rem;
-        color: #fff;
-        font-weight: bolder;
-        font-weight: 600;
-        margin-top: -5rem;
-        color: #FFC801;
-           
-   }
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: bolder;
+    font-weight: 600;
+    margin-top: -5rem;
+    color: #FFC801;
+       
+    }
 
 
    .text p{
@@ -51,7 +51,7 @@
     letter-spacing: 0.02rem;
     line-height: 1.6rem;
     color: #fff; 
-}
+   }
 
 .btn2{
     display: flex;
