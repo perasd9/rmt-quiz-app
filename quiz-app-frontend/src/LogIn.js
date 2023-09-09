@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './LogIn.css';
 import Main from './Main';
 import slicica from './img/slicica.png';
+import './LogIn.css';
 
 
 const LogIn = () => {
@@ -11,6 +11,11 @@ const navigate = useNavigate();
  const handleLogInClick = () => {
   navigate('/Main');
 };
+
+const handleSignUpClick = () => {
+    navigate('/SignIn');
+  };
+  
 
     return (
     <div className='hero'>
@@ -21,7 +26,10 @@ const navigate = useNavigate();
       <div className='right' >
        <h1>Welcome back!</h1>
        <h2>Log <span className='yellow'>in!</span></h2>
-       <h5>Don't have an account? <span className='yellow'>Sign up</span></h5>
+       <h5>
+            Don't have an account? <span className='yellow' onClick={handleSignUpClick}>Sign up</span>
+        </h5>
+
        <div className='form'>
             <div className='input'>
                 <label for="username">Username: *</label>
@@ -36,7 +44,7 @@ const navigate = useNavigate();
             </div>
             </div>
             <div>
-                <button className='btn' onClick={handleLogInClick}><p>Log in</p></button>
+                <button className='dugme' onClick={handleLogInClick}><p>Log in</p></button>
             </div>
 
             <h6>By submiting this form you agree to our Privacy Policy</h6>

@@ -14,7 +14,7 @@ function Players() {
         const response = await axios.get("/db/data.json");
         setPlayers(response.data);
       } catch (err) {
-        setError(err.message); // Set the error message in case of an error
+        setError(err.message); 
       }
     }
 
@@ -22,9 +22,9 @@ function Players() {
   }, []);
 
   return (
-    <div className='main'>
+    <div className='main2'>
       <Navbar />
-      <div className='hero-page'>
+      <div className='main3'>
         {error ? (
           <p>Error: {error}</p>
         ) : (

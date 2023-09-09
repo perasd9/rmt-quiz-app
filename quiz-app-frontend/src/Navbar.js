@@ -1,6 +1,15 @@
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import LogIn from './LogIn';
 
 function Navbar() {
+
+  const navigate = useNavigate();
+
+  const handleLogoutClick = () => {
+    
+    navigate('/');
+  };
     return (
         
     <nav className="nav">
@@ -21,7 +30,7 @@ function Navbar() {
     </div>
 
     <div class="button">
-      <button><p>Log out</p></button>
+      <button onClick={handleLogoutClick}><p>Log out</p></button>
           
    </div>
 

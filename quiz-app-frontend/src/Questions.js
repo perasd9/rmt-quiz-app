@@ -1,7 +1,7 @@
 import './Questions.css';
 import './Game.css'
 import './Navbar.css'
-
+import './Card'
 import Navbar from './Navbar'
 import Game from './Game';
 import player from './img/player.png'
@@ -18,7 +18,7 @@ function Questions() {
   return (
     <div>
     <Navbar/>
-    <div className="App">
+    <div className="App1">
       <div className='img-wrapper'>
         <img src={player}></img>
           <img src={player}></img>

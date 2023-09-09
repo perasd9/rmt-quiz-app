@@ -5,6 +5,7 @@ import Quizzes from './Quizzes.js';
 import Players from './Players.js';
 import Questions from './Questions.js';
 import LogIn from './LogIn.js';
+import SignIn from './SignIn.js';
 
 
 
@@ -12,7 +13,8 @@ function App() {
   return (
     <Router>
     <Routes>
-      <Route path="/" element={<LogIn/>}/>
+    <Route path="/" element={<LogIn/>}/>
+    <Route path="/SignIn" element={<SignIn />} />
     <Route path="/Main" element={<Main />} /> 
     <Route path="/Quizzes" element={<Quizzes />} />
     <Route path="/Players" element = {<Players/>}/>

@@ -1,5 +1,6 @@
 import React from 'react';
-import './Game.css'
+import './Game.css';
+
 
 function Game({ questionText, answers }) {
   return (

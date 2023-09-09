@@ -75,11 +75,11 @@ html {
 
 }
 
-.btn {
+.dugme {
  background-color: #FFC801;
  color: white;
- padding: 0.7rem 2rem;
  border-radius: 0.5rem;
  margin-top: 2rem;
  font-weight: bold;
 }
+

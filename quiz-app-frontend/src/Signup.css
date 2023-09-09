@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+  }
+
+  
+  
+  body{
+    background-color: #252323;
+    
+  }
+  
+  html{
+    
+    height: 100vh;
+   
+  }
+
+  .container1{
+    padding: 4rem;
+    color: white;
+    background-color: #000;
+    width: 90vw;
+    display: flex;
+    border-radius: 2rem;
+    margin: 3rem auto;
+    height: 90vh;
+    
+    
+  }
+
+  .signup{
+    background-color: #000;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    font-size: 1.5rem;
+  }
+  .Form1{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    
+    
+  }
+
+  .Form1 label{
+    font-size: 1rem;
+    
+  }
+
+ 
+
+  .Form input{
+    height: 40px;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #252323;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    color: #fff;
+
+  }
+
+  .login{
+    color: #FFC801;
+  }
+
+  .privacy{
+    color: #FFC801;
+  }
+
+  .Form1 p{
+    color: #FFC801;
+    font-size: 0.8rem;
+  }
+
+
+  .success-message {
+    background-color: #252323;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 1rem;
+    
+    border-radius: 2rem;
+  }
+
+  .signup_dugme{
+    cursor: pointer;
+    border-radius: 1rem;
+    background-color: #FFC801;
+    margin-top: 0.8rem;
+    margin-bottom: -1rem;
+
+  }
+
+  .signup_dugme p{
+    color: #fff;
+    font-size: 1rem;
+  }
+
+  h5{
+    font-size: 1rem;
+  }
+
+  h6{
+    font-size: 0.7rem;
+  }
+
+
+
+
+  .Image1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .Image1 > img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .input{
+    gap: 1rem;
+    
+  }
+
+  .Box{
+    gap: 0.3rem;
+  }
+
+  .Box span{
+    color: #FFC801;
+  }
+    
+  
+   
