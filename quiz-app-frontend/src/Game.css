@@ -1,0 +1,74 @@
+.div-a ul {
+ list-style: none;
+ padding: 2rem;
+ display: flex;
+ flex-wrap: wrap;
+ margin-top: 2rem;
+ margin-left: 3rem;
+ margin-bottom: 2rem;
+
+}
+
+.div-a ul li {
+ font-size: 1.2em;
+
+ padding: 0.5rem;
+ border: 2px solid #ccc;
+ border-radius: 8px;
+ cursor: pointer;
+ transition: background-color 0.3s, border-color 0.3s;
+ width: calc(40% - 5px);
+
+ box-sizing: border-box;
+
+}
+
+
+.div-a ul li:nth-child(1),
+.div-a ul li:nth-child(2),
+.div-a ul li:nth-child(3),
+.div-a ul li:nth-child(4) {
+ background-color: #FFC801;
+ color: #fff;
+}
+
+
+.div-a ul li:nth-child(1):hover,
+.div-a ul li:nth-child(2):hover,
+.div-a ul li:nth-child(3):hover,
+.div-a ul li:nth-child(4):hover {
+ background-color: #252323;
+ border-color: #FFC801;
+}
+
+.div-a ul li:nth-child(2)::after {
+ content: '';
+ position: absolute;
+ right: 48.5rem;
+
+ height: 14rem;
+ width: 2px;
+ background-color: #FFC801;
+}
+
+.div-a ul li:nth-child(3)::before {
+ content: '';
+ position: absolute;
+ top: 34rem;
+ left: 23rem;
+ width: 50rem;
+ height: 2px;
+ background-color: #FFC801;
+}
+
+.div-q {
+
+ background-color: #ffc801;
+ color: white;
+ width: 60rem;
+ height: 6rem;
+ border-radius: 15px;
+ padding: 1rem;
+ margin-top: 1.5rem;
+
+}

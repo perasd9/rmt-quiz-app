@@ -2,15 +2,26 @@ import Navbar from './Navbar';
 import './Navbar.css';
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import Questions from './Questions';
+
+
+
+
 import './Main.css';
 
 function Main() {
+  
   const navigate = useNavigate();
 
   const handleQuizzesClick = () => {
     
     navigate('/quizzes');
   };
+
+  const handleStartQuizClick = () => {
+  navigate('/Questions');
+};
+
 
 
 
@@ -28,7 +39,8 @@ function Main() {
 
         </p>
         <div className="btn2">
-          <button className="b2" id='b2'>Start quiz</button>
+          <button className="b2" id='b2' onClick={handleStartQuizClick}>Start quiz</button>
+
           <button className="b2" id='b3' onClick={handleQuizzesClick}>Quizzes</button>
         </div>
       </div>

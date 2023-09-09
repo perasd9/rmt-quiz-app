@@ -1,0 +1,16 @@
+.container {
+ min-width: 13rem;
+ height: 19rem;
+ background-color: #FFC801;
+ border-radius: 20px;
+ display: flex;
+ flex-direction: column;
+ gap: 0.5rem;
+ align-items: center;
+ color: white;
+ margin: 8rem 5rem;
+}
+
+.img-div {
+ margin-top: 1rem;
+}
