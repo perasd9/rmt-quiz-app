@@ -1,10 +1,10 @@
-* {
- box-sizing: border-box;
- margin: 0;
- padding: 0;
- font-family: 'Lato', sans-serif;
-
-}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+  }
 
 body {
  background-color: #252323;
@@ -69,6 +69,8 @@ html {
 .input input {
  padding: 0.2rem;
  border-radius: 0.4rem;
+ height: 34px;
+ font-size: 1rem;
  max-width: 65%;
  background-color: #252523;
  color: white;
@@ -76,10 +78,16 @@ html {
 }
 
 .dugme {
- background-color: #FFC801;
- color: white;
- border-radius: 0.5rem;
- margin-top: 2rem;
- font-weight: bold;
-}
+    background-color: #FFC801;
+    color: white;
+    margin-top: 2rem;
+    font-weight: bold;
+   }
+
+   h5 span{
+    text-decoration: underline;
+    cursor: pointer;
+   }
+
+  
 

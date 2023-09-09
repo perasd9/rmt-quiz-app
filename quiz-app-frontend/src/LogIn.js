@@ -33,7 +33,7 @@ const handleSignUpClick = () => {
        <div className='form'>
             <div className='input'>
                 <label for="username">Username: *</label>
-                <input id="username" type="text" name="korisnicko_ime" placeholder="name_surname"/>
+                <input id="username" type="text" name="korisnicko_ime" placeholder="username"/>
 
             </div>
             
