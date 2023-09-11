@@ -9,7 +9,7 @@ function Card(props) {
       <img src={player} className='img'></img>
     </div>
    
-    <h1>Ime: {props.player.name}</h1>
+    <h1>Ime: {props.player.username}</h1>
     <h3>Broj pobeda: {props.player.victories}</h3>
    </div>  
   )

@@ -11,11 +11,11 @@ const Quizzes = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // Dobijanje podataka o utakmicama
+      
         const response = await axios.get('https://localhost:7026/quizzes');
         setMatches(response.data);
 
-        // Dobijanje informacija o igračima za svaku utakmicu
+        
         const player1Promises = response.data.map(async (match) => {
           const playerResponse = await axios.get(`https://localhost:7026/players/${match.playerId1}`);
           return playerResponse.data;
@@ -29,7 +29,7 @@ const Quizzes = () => {
         const player1Data = await Promise.all(player1Promises);
         const player2Data = await Promise.all(player2Promises);
 
-        // Ažuriranje utakmica sa informacijama o igračima
+       
         const matchesWithPlayers = response.data.map((match, index) => ({
           ...match,
           player1: player1Data[index],

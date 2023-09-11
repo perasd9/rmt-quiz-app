@@ -11,7 +11,7 @@ function Players() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await axios.get("/db/data.json");
+        const response = await axios.get('https://localhost:7026/players');
         setPlayers(response.data);
       } catch (err) {
         setError(err.message); 

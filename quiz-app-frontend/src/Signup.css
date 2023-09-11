@@ -149,6 +149,47 @@
   
   }
 
+  @media (max-width: 776px) {
+    .container1 {
+      padding: 2rem;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 776px) {
+    .signup {
+      width: 100%;
+      padding: 1rem;
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 776px) {
+    .Image1 {
+      width: 100%;
+      height: auto;
+    }
+    .Image1 > img {
+      height: auto;
+    }
+  }
+
+
+  @media (min-width: 500px) {
+    .Image1 {
+      width: 50%; 
+    }
+    .Image1 > img {
+      height: 100%;
+    }
+  }
+
+
+  
+
+
+  
+
 
     
   

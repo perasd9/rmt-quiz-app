@@ -80,3 +80,36 @@
  margin-top: 1.5rem;
 
 }
+
+/* Stilovi za ekrane šire od 800px */
+@media (min-width: 800px) {
+  .div-q {
+    width: 60rem;
+  }
+
+  .div-a ul li {
+    width: calc(40% - 5px);
+  }
+}
+
+/* Stilovi za ekrane šire od 500px do 800px */
+@media (min-width: 500px) and (max-width: 799px) {
+  .div-q {
+    width: 40rem;
+  }
+
+  .div-a ul li {
+    width: calc(45% - 5px);
+  }
+}
+
+/* Stilovi za ekrane manje od 500px */
+@media (max-width: 499px) {
+  .div-q {
+    width: 30rem;
+  }
+
+  .div-a ul li {
+    width: 100%;
+  }
+}
