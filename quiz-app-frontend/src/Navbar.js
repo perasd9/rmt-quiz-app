@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
+import React, {useState} from 'react';
 import { useNavigate } from 'react-router-dom';
 import LogIn from './LogIn';
 
 function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
 
   const navigate = useNavigate();
 
@@ -12,8 +14,7 @@ function Navbar() {
   };
     return (
         
-    <nav className="nav">
-
+     <nav className={`nav ${isOpen ? 'open' : ''}`}>
         <div class="logo">
             <div className="imageWrapper">
         <img src="../Rectangle 1.png"></img>
@@ -21,7 +22,12 @@ function Navbar() {
         <h4>PSN</h4>
       </div>
       <div class="menu">
-    <ul>
+        <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
+        <div className={`bar ${isOpen ? 'open' : ''}`}></div>
+        <div className={`bar ${isOpen ? 'open' : ''}`}></div>
+        <div className={`bar ${isOpen ? 'open' : ''}`}></div>
+      </div>
+    <ul className={`menu-list ${isOpen ? 'open' : ''}`}>
     <li><Link to="/Main">Home</Link></li>
     <li><Link to="/Players">Players</Link></li>
     <li><Link to="/Quizzes">Quizzes</Link></li>
@@ -34,7 +40,7 @@ function Navbar() {
           
    </div>
 
-                
+                ``
   
                
             </nav>
