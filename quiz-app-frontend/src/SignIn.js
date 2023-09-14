@@ -93,7 +93,7 @@ const SignIn = () => {
       <div className="signup">
         <div className="Box">
           <h1>Create your account</h1>
-          Already have an account? <Link to="/"><span>Login in!</span></Link>
+          <p>Already have an account? <Link to="/"><span>Login in!</span></Link></p>
         </div>
 
         <form id="registrationForm">

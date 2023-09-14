@@ -82,6 +82,7 @@ html {
     color: white;
     margin-top: 2rem;
     font-weight: bold;
+    cursor: pointer;
    }
 
    h5 span{

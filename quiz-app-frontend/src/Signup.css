@@ -140,6 +140,8 @@
 
   .Box{
     font-size: 1.2rem;
+    
+
   }
 
   .Box span{
@@ -149,7 +151,7 @@
   
   }
 
-<<<<<<< HEAD
+
   @media (max-width: 776px) {
     .container1 {
       padding: 2rem;
@@ -191,14 +193,13 @@
 
   
 
-=======
+
 @media (max-width: 776px) {
   .container1 {
     padding: 2rem;
     width: 100%;
   }
 }
->>>>>>> a14ac880aae6b5b0627f39e64e520d6992ff831f
 
 @media (max-width: 776px) {
   .signup {

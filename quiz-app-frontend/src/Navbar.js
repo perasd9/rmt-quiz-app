@@ -40,10 +40,9 @@ function Navbar() {
           
    </div>
 
-                ``
-  
+   
                
-            </nav>
+     </nav>
         
     )
   }
